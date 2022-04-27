@@ -1,0 +1,340 @@
+current directory: /Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/ext/gosu
+/Users/jordanschool/.rbenv/versions/3.0.0/bin/ruby -I /Users/jordanschool/.rbenv/versions/3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220418-14155-4d26rl.rb extconf.rb
+The Gosu gem requires some libraries to be installed system-wide.
+See the following site for a list:
+https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X
+creating Makefile
+
+current directory: /Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/ext/gosu
+make DESTDIR\= clean
+
+current directory: /Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/ext/gosu
+make DESTDIR\=
+compiling ../../src/Audio.cpp
+compiling ../../src/AudioFileAudioToolbox.cpp
+compiling ../../src/AudioFileSDLSound.cpp
+compiling ../../src/AudioImpl.cpp
+compiling ../../src/Bitmap.cpp
+compiling ../../src/BitmapIO.cpp
+compiling ../../src/BlockAllocator.cpp
+compiling ../../src/Channel.cpp
+compiling ../../src/Color.cpp
+compiling ../../src/DirectoriesApple.cpp
+compiling ../../src/DirectoriesUnix.cpp
+compiling ../../src/DirectoriesWin.cpp
+compiling ../../src/FileUnix.cpp
+compiling ../../src/FileWin.cpp
+compiling ../../src/Font.cpp
+compiling ../../src/GosuGLView.cpp
+compiling ../../src/GosuViewController.cpp
+compiling ../../src/Graphics.cpp
+compiling ../../src/IO.cpp
+compiling ../../src/Image.cpp
+compiling ../../src/Input.cpp
+compiling ../../src/InputUIKit.cpp
+compiling ../../src/Inspection.cpp
+compiling ../../src/LargeImageData.cpp
+compiling ../../src/Macro.cpp
+compiling ../../src/MarkupParser.cpp
+compiling ../../src/Math.cpp
+compiling ../../src/OffScreenTarget.cpp
+compiling ../../src/Resolution.cpp
+compiling ../../src/RubyGosu.cxx
+../../src/RubyGosu.cxx:1276:3: warning: 'rb_define_virtual_variable' is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+  rb_define_virtual_variable("SWIG_TRACKINGS_COUNT",
+  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/cxxanyargs.hpp:64:1: note: 'rb_define_virtual_variable' has been explicitly marked deprecated here
+RUBY_CXX_DEPRECATED("Use of ANYARGS in this function is deprecated")
+^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/2/attributes.h:79:35: note: expanded from macro 'RUBY_CXX_DEPRECATED'
+#define RUBY_CXX_DEPRECATED(mseg) RBIMPL_ATTR_DEPRECATED((mseg))
+                                  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/attr/deprecated.h:32:53: note: expanded from macro 'RBIMPL_ATTR_DEPRECATED'
+# define RBIMPL_ATTR_DEPRECATED(msg) __attribute__((__deprecated__ msg))
+                                                    ^
+../../src/RubyGosu.cxx:1333:3: warning: 'rb_st_foreach' is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+  st_foreach(swig_ruby_trackings,
+  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/st.h:142:20: note: expanded from macro 'st_foreach'
+#define st_foreach rb_st_foreach
+                   ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/cxxanyargs.hpp:419:1: note: 'rb_st_foreach' has been explicitly marked deprecated here
+RUBY_CXX_DEPRECATED("Use of ANYARGS in this function is deprecated")
+^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/2/attributes.h:79:35: note: expanded from macro 'RUBY_CXX_DEPRECATED'
+#define RUBY_CXX_DEPRECATED(mseg) RBIMPL_ATTR_DEPRECATED((mseg))
+                                  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/attr/deprecated.h:32:53: note: expanded from macro 'RBIMPL_ATTR_DEPRECATED'
+# define RBIMPL_ATTR_DEPRECATED(msg) __attribute__((__deprecated__ msg))
+                                                    ^
+../../src/RubyGosu.cxx:2543:9: warning: 'rb_rescue' is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+    if (rb_rescue(VALUEFUNC(SWIG_AUX_NUM2DBL), (VALUE)a, VALUEFUNC(SWIG_ruby_failed), 0) != Qnil) {
+        ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/cxxanyargs.hpp:244:1: note: 'rb_rescue' has been explicitly marked deprecated here
+RUBY_CXX_DEPRECATED("Use of ANYARGS in this function is deprecated")
+^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/2/attributes.h:79:35: note: expanded from macro 'RUBY_CXX_DEPRECATED'
+#define RUBY_CXX_DEPRECATED(mseg) RBIMPL_ATTR_DEPRECATED((mseg))
+                                  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/attr/deprecated.h:32:53: note: expanded from macro 'RBIMPL_ATTR_DEPRECATED'
+# define RBIMPL_ATTR_DEPRECATED(msg) __attribute__((__deprecated__ msg))
+                                                    ^
+../../src/RubyGosu.cxx:2593:9: warning: 'rb_rescue' is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+    if (rb_rescue(VALUEFUNC(SWIG_AUX_NUM2ULONG), (VALUE)a, VALUEFUNC(SWIG_ruby_failed), 0) != Qnil) {
+        ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/cxxanyargs.hpp:244:1: note: 'rb_rescue' has been explicitly marked deprecated here
+RUBY_CXX_DEPRECATED("Use of ANYARGS in this function is deprecated")
+^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/2/attributes.h:79:35: note: expanded from macro 'RUBY_CXX_DEPRECATED'
+#define RUBY_CXX_DEPRECATED(mseg) RBIMPL_ATTR_DEPRECATED((mseg))
+                                  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/attr/deprecated.h:32:53: note: expanded from macro 'RBIMPL_ATTR_DEPRECATED'
+# define RBIMPL_ATTR_DEPRECATED(msg) __attribute__((__deprecated__ msg))
+                                                    ^
+../../src/RubyGosu.cxx:2779:9: warning: 'rb_rescue' is deprecated: Use of ANYARGS in this function is deprecated [-Wdeprecated-declarations]
+    if (rb_rescue(VALUEFUNC(SWIG_AUX_NUM2LONG), (VALUE)a, VALUEFUNC(SWIG_ruby_failed), 0) != Qnil) {
+        ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/cxxanyargs.hpp:244:1: note: 'rb_rescue' has been explicitly marked deprecated here
+RUBY_CXX_DEPRECATED("Use of ANYARGS in this function is deprecated")
+^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/backward/2/attributes.h:79:35: note: expanded from macro 'RUBY_CXX_DEPRECATED'
+#define RUBY_CXX_DEPRECATED(mseg) RBIMPL_ATTR_DEPRECATED((mseg))
+                                  ^
+/Users/jordanschool/.rbenv/versions/3.0.0/include/ruby-3.0.0/ruby/internal/attr/deprecated.h:32:53: note: expanded from macro 'RBIMPL_ATTR_DEPRECATED'
+# define RBIMPL_ATTR_DEPRECATED(msg) __attribute__((__deprecated__ msg))
+                                                    ^
+5 warnings generated.
+compiling ../../src/SDL_sound.c
+compiling ../../src/SDL_sound_aiff.c
+In file included from ../../src/SDL_sound_aiff.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_aiff.c:272:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    retval = SDL_RWread(internal->rw, internal->buffer, 1, max);
+           ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_aiff.c:280:21: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    else if (retval == -1) /** FIXME: this error check is broken **/
+             ~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_aiff.c:307:37: warning: implicit conversion loses integer precision: 'long long' to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+    a->bytesLeft = fmt->total_bytes - offset;
+                 ~ ~~~~~~~~~~~~~~~~~^~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_aiff.c:502:25: warning: implicit conversion loses integer precision: 'const Sint64' (aka 'const long long') to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+    a->bytesLeft = fmt->total_bytes;
+                 ~ ~~~~~^~~~~~~~~~~
+4 warnings generated.
+compiling ../../src/SDL_sound_au.c
+In file included from ../../src/SDL_sound_au.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_au.c:192:45: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    internal->total_time = ((dec->remaining == -1) ? (-1) :
+                             ~~~~~~~~~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_au.c:269:16: warning: comparison of integers of different signs: 'int' and 'Uint32' (aka 'unsigned int') [-Wsign-compare]
+    if (maxlen > dec->remaining)
+        ~~~~~~ ^ ~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_au.c:271:11: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    ret = SDL_RWread(internal->rw, buf, 1, maxlen);
+        ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_au.c:321:33: warning: implicit conversion loses integer precision: 'long long' to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    dec->remaining = dec->total - offset;
+                   ~ ~~~~~~~~~~~^~~~~~~~
+4 warnings generated.
+compiling ../../src/SDL_sound_coreaudio.c
+In file included from ../../src/SDL_sound_coreaudio.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_coreaudio.c:217:17: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'UInt32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        *actualCount = bytes_actually_read;
+                     ~ ^~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_coreaudio.c:625:9: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+        return total_bytes_read;
+        ~~~~~~ ^~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_coreaudio.c:654:30: warning: unused variable 'actual_format' [-Wunused-variable]
+        AudioStreamBasicDescription     actual_format;
+                                        ^
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_coreaudio.c:655:9: warning: unused variable 'format_size' [-Wunused-variable]
+        UInt32 format_size;
+               ^
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_coreaudio.c:159:20: warning: unused function 'CoreAudio_FourCCToString' [-Wunused-function]
+static const char* CoreAudio_FourCCToString(int32_t error_code)
+                   ^
+5 warnings generated.
+compiling ../../src/SDL_sound_flac.c
+In file included from ../../src/SDL_sound_flac.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_flac.c:114:48: warning: implicit conversion loses integer precision: 'unsigned long long' to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+        internal->total_time = (frames / rate) * 1000;
+                             ~ ~~~~~~~~~~~~~~~~^~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_flac.c:140:26: warning: implicit conversion loses integer precision: 'unsigned long long' to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    return rc * channels * sizeof (drflac_int32);
+    ~~~~~~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling ../../src/SDL_sound_modplug.c
+compiling ../../src/SDL_sound_mp3.c
+In file included from ../../src/SDL_sound_mp3.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_mp3.c:126:26: warning: implicit conversion loses integer precision: 'unsigned long long' to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    return rc * channels * sizeof (float);
+    ~~~~~~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+1 warning generated.
+compiling ../../src/SDL_sound_raw.c
+In file included from ../../src/SDL_sound_raw.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_raw.c:84:50: warning: implicit conversion loses integer precision: 'long long' to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+    internal->total_time = ( pos ) / sample_rate * 1000;
+                         ~ ~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_raw.c:106:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    retval = SDL_RWread(internal->rw, internal->buffer,
+           ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_raw.c:113:21: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    else if (retval == -1) /** FIXME: this error check is broken **/
+             ~~~~~~ ^  ~~
+3 warnings generated.
+compiling ../../src/SDL_sound_shn.c
+In file included from ../../src/SDL_sound_shn.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_shn.c:446:22: warning: comparison of integers of different signs: 'int' and 'Uint32' (aka 'unsigned int') [-Wsign-compare]
+        for(i = 0; i < n0; i++)
+                   ~ ^ ~~
+1 warning generated.
+compiling ../../src/SDL_sound_voc.c
+In file included from ../../src/SDL_sound_voc.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:176:34: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+                    if ((v->rate != -1) && (uc != v->rate))
+                         ~~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:207:30: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+                if ((v->rate != -1) && (new_rate_long != v->rate))
+                     ~~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:258:30: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+                if ((v->rate != -1) && (uc != v->rate))
+                     ~~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:271:30: warning: comparison of integers of different signs: 'int' and 'Uint32' (aka 'unsigned int') [-Wsign-compare]
+                for(i = 0; i < sblen; i++)   /* skip repeat loops. */
+                           ~ ^ ~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:290:30: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+                if ((v->rate != -1) && (new_rate_short != v->rate))
+                     ~~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:324:30: warning: comparison of integers of different signs: 'int' and 'Uint32' (aka 'unsigned int') [-Wsign-compare]
+                for(i = 0; i < sblen; i++)   /* skip repeat loops. */
+                           ~ ^ ~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:406:12: warning: implicit conversion loses integer precision: 'Sint64' (aka 'long long') to 'int' [-Wshorten-64-to-32]
+    return done;
+    ~~~~~~ ^~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_voc.c:429:17: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    if (v->rate == -1)
+        ~~~~~~~ ^  ~~
+8 warnings generated.
+compiling ../../src/SDL_sound_vorbis.c
+compiling ../../src/SDL_sound_wav.c
+In file included from ../../src/SDL_sound_wav.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:24:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    int rc = SDL_RWread(rw, ui16, sizeof (Uint16), 1);
+        ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:34:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    int rc = SDL_RWread(rw, ui32, sizeof (Uint32), 1);
+        ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:54:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    int rc = SDL_RWread(rw, ui8, sizeof (Uint8), 1);
+        ~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:222:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'Uint32' (aka 'unsigned int') [-Wshorten-64-to-32]
+    retval = SDL_RWread(internal->rw, internal->buffer, 1, max);
+           ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:230:21: warning: comparison of integers of different signs: 'Uint32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    else if (retval == -1) /** FIXME: this error check is broken **/
+             ~~~~~~ ^  ~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:250:37: warning: implicit conversion loses integer precision: 'long long' to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+    w->bytesLeft = fmt->total_bytes - offset;
+                 ~ ~~~~~~~~~~~~~~~~~^~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/SDL_sound_wav.c:527:37: warning: implicit conversion loses integer precision: 'long long' to 'Sint32' (aka 'int') [-Wshorten-64-to-32]
+    w->bytesLeft = fmt->total_bytes - skipsize;
+                 ~ ~~~~~~~~~~~~~~~~~^~~~~~~~~~
+7 warnings generated.
+compiling ../../src/TexChunk.cpp
+compiling ../../src/Text.cpp
+compiling ../../src/TextBuilder.cpp
+compiling ../../src/TextInput.cpp
+compiling ../../src/Texture.cpp
+compiling ../../src/TimingApple.cpp
+compiling ../../src/TimingUnix.cpp
+compiling ../../src/TimingWin.cpp
+compiling ../../src/Transform.cpp
+compiling ../../src/TrueTypeFont.cpp
+compiling ../../src/TrueTypeFontApple.cpp
+compiling ../../src/TrueTypeFontUnix.cpp
+compiling ../../src/TrueTypeFontWin.cpp
+compiling ../../src/Utility.cpp
+compiling ../../src/Version.cpp
+compiling ../../src/WinUtility.cpp
+compiling ../../src/Window.cpp
+compiling ../../src/WindowUIKit.cpp
+compiling ../../src/fastmix.c
+compiling ../../src/load_669.c
+compiling ../../src/load_amf.c
+compiling ../../src/load_ams.c
+compiling ../../src/load_dbm.c
+compiling ../../src/load_dmf.c
+In file included from ../../src/load_dmf.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/libmodplug/load_dmf.c:533:45: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+        if (tree.ibuf >= ibufmax) return tree.ibuf - ibuf;
+                                  ~~~~~~ ~~~~~~~~~~^~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/libmodplug/load_dmf.c:558:19: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+        return tree.ibuf - ibuf;
+        ~~~~~~ ~~~~~~~~~~^~~~~~
+2 warnings generated.
+compiling ../../src/load_dsm.c
+compiling ../../src/load_far.c
+compiling ../../src/load_gdm.c
+compiling ../../src/load_it.c
+compiling ../../src/load_mdl.c
+compiling ../../src/load_med.c
+compiling ../../src/load_mod.c
+compiling ../../src/load_mt2.c
+compiling ../../src/load_mtm.c
+compiling ../../src/load_okt.c
+compiling ../../src/load_psm.c
+compiling ../../src/load_ptm.c
+compiling ../../src/load_s3m.c
+compiling ../../src/load_stm.c
+compiling ../../src/load_ult.c
+compiling ../../src/load_umx.c
+compiling ../../src/load_xm.c
+compiling ../../src/mmcmp.c
+compiling ../../src/modplug.c
+In file included from ../../src/modplug.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/libmodplug/modplug.c:15:12: warning: implicit conversion loses integer precision: 'Uint64' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+        SDL_srand(SDL_GetPerformanceCounter());
+        ~~~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling ../../src/mojoal.c
+In file included from ../../src/mojoal.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:2272:27: warning: comparison of integers of different signs: 'ALsizei' (aka 'int') and 'unsigned long' [-Wsign-compare]
+            for (i = 0; i < SDL_arraysize(sb->sources); i++) {
+                        ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:3486:11: warning: comparison of integers of different signs: 'const ALsizei' (aka 'const int') and 'unsigned long' [-Wsign-compare]
+    if (n <= SDL_arraysize(stackobjs)) {
+        ~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:3501:27: warning: comparison of integers of different signs: 'ALsizei' (aka 'int') and 'unsigned long' [-Wsign-compare]
+            for (i = 0; i < SDL_arraysize(block->sources); i++) {
+                        ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:3543:23: warning: comparison of integers of different signs: 'ALsizei' (aka 'int') and 'unsigned long' [-Wsign-compare]
+        for (i = 0; i < SDL_arraysize(block->sources); i++) {
+                    ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:4529:11: warning: comparison of integers of different signs: 'const ALsizei' (aka 'const int') and 'unsigned long' [-Wsign-compare]
+    if (n <= SDL_arraysize(stackobjs)) {
+        ~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:4544:27: warning: comparison of integers of different signs: 'ALsizei' (aka 'int') and 'unsigned long' [-Wsign-compare]
+            for (i = 0; i < SDL_arraysize(block->buffers); i++) {
+                        ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/mojoAL/mojoal.c:4583:23: warning: comparison of integers of different signs: 'ALsizei' (aka 'int') and 'unsigned long' [-Wsign-compare]
+        for (i = 0; i < SDL_arraysize(block->buffers); i++) {
+                    ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7 warnings generated.
+compiling ../../src/snd_dsp.c
+compiling ../../src/snd_flt.c
+compiling ../../src/snd_fx.c
+compiling ../../src/sndfile.c
+compiling ../../src/sndmix.c
+In file included from ../../src/sndmix.c:1:
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/libmodplug/sndmix.c:49:40: warning: implicit conversion loses integer precision: 'unsigned long long' to 'int' [-Wshorten-64-to-32]
+        return ((uint64_t) a * (uint64_t) b ) / c;
+        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/dependencies/SDL_sound/libmodplug/sndmix.c:55:50: warning: implicit conversion loses integer precision: 'unsigned long long' to 'int' [-Wshorten-64-to-32]
+        return ((uint64_t) a * (uint64_t) b + (c >> 1)) / c;
+        ~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+2 warnings generated.
+compiling ../../src/utf8proc.c
+linking shared-object gosu.bundle
+
+current directory: /Users/jordanschool/turing/mod_3/in_class/playground/game_of_life/spec/vendor/bundle/ruby/3.0.0/gems/gosu-1.4.3/ext/gosu
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 gosu.bundle ./.gem.20220418-14155-q8olir
